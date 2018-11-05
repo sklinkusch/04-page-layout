@@ -32,12 +32,12 @@ body {
   font-style: italic;
 }
 
-main p {
+article p {
   width: 85%;
   margin: 0px auto;
 }
 
-main h2 {
+article h2 {
   width: 85%;
   margin: 20px auto;
 }
