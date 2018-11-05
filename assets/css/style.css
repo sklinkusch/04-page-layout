@@ -4,13 +4,14 @@
 }
 
 body {
+  box-sizing: border-box;
   background-color: #a7a7a7;
 }
 
 .paper {
   background-color: #ffffff;
   width: 21.0cm;
-  height: 29.7cm;
+  height: 27.0cm;
   margin: 10px auto;
 }
 
@@ -33,13 +34,40 @@ body {
 
 main p {
   width: 85%;
-  margin: 10px auto;
+  margin: 0px auto;
+}
+
+main h2 {
+  width: 85%;
+  margin: 20px auto;
 }
 
 .vertspaceI {
-  height: 420px;
+  height: 360px;
+}
+
+.vertspaceII {
+  height: 200px;
+}
+
+.vertspaceIII {
+  height: 20px;
+}
+
+.vertspaceIV {
+  height: 520px;
+}
+
+.vertspaceV {
+  height: 640px;
 }
 .pagenumber {
   font-weight: bold;
   text-align: center;
+}
+
+.titlerep {
+  padding-top: 20px;
+  margin-left: 7.5%;
+  margin-bottom: 20px;
 }
