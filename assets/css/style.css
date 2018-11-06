@@ -1,13 +1,16 @@
+/* clear all browser-made settings */
 * {
   margin: 0;
   padding: 0;
 }
 
+/* general page-setup */
 body {
   box-sizing: border-box;
   background-color: #a7a7a7;
 }
 
+/* include webfont Montserrat locally */
 @font-face {
   font-family: 'Montserrat';
   font-style: normal;
@@ -21,61 +24,7 @@ body {
        url('../fonts/montserrat-v12-latin-regular.svg#Montserrat') format('svg'); /* Legacy iOS */
 }
 
-
-.paper {
-  background-color: #ffffff;
-  width: 21.0cm;
-  height: 27.0cm;
-  margin: 10px auto;
-  position: relative;
-}
-
-.document {
-  position: absolute;
-  right: 1%;
-}
-
-.title {
-  width: 85%;
-  font-size: 32px;
-  text-align: right;
-  margin-bottom: 150px;
-  padding-top: 40px;
-  margin-top: 20px;
-}
-
-.cite {
-  font-weight: bold;
-}
-
-.italic {
-  font-style: italic;
-}
-
-article p {
-  width: 85%;
-  margin: 0px auto;
-}
-
-article h2 {
-  width: 85%;
-  margin: 20px auto;
-}
-
-.pagenumber {
-  font-weight: bold;
-  text-align: center;
-  position: absolute;
-  bottom: 1%;
-  left: 48%
-}
-
-.titlerep {
-  padding-top: 20px;
-  margin-left: 7.5%;
-  margin-bottom: 20px;
-}
-
+/* Navigation */
 nav {
   background: antiquewhite;
   padding: 20px;
@@ -83,6 +32,11 @@ nav {
   left: 2%;
   top: 10%;
   font-family: 'Montserrat';
+}
+
+.navtitle {
+  text-decoration: underline;
+  margin-bottom: 10px;
 }
 
 nav li {
@@ -104,7 +58,63 @@ nav a:hover {
   color: blue;
 }
 
-.navtitle {
-  text-decoration: underline;
-  margin-bottom: 10px;
+/* Document */
+.document {
+  position: absolute;
+  right: 1%;
+}
+
+/* Sheets of Paper (not ISO DIN A4) */
+.paper {
+  background-color: #ffffff;
+  width: 21.0cm;
+  height: 27.0cm;
+  margin: 10px auto;
+  position: relative;
+}
+
+/* Styling and Position of the Page Number */
+.pagenumber {
+  font-weight: bold;
+  text-align: center;
+  position: absolute;
+  bottom: 1%;
+  left: 48%
+}
+
+/* Title on the first page */
+.title {
+  width: 85%;
+  font-size: 32px;
+  text-align: right;
+  margin-bottom: 150px;
+  padding-top: 40px;
+  margin-top: 20px;
+}
+
+/* Repetition of the title on pages 2 to 5 */
+.titlerep {
+  padding-top: 20px;
+  margin-left: 7.5%;
+  margin-bottom: 20px;
+}
+
+/* Margin Settings for the content and the headings */
+article p {
+  width: 85%;
+  margin: 0px auto;
+}
+
+article h2 {
+  width: 85%;
+  margin: 20px auto;
+}
+
+/* Some style issues */
+.cite {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
 }
