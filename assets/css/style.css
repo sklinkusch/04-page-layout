@@ -87,9 +87,8 @@ nav a:hover {
   width: 85%;
   font-size: 32px;
   text-align: right;
-  margin-bottom: 150px;
+  margin: 20px auto 150px auto;
   padding-top: 40px;
-  margin-top: 20px;
 }
 
 /* Repetition of the title on pages 2 to 5 */
