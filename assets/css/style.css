@@ -27,6 +27,7 @@ body {
   width: 21.0cm;
   height: 27.0cm;
   margin: 10px auto;
+  position: relative;
 }
 
 .document {
