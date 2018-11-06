@@ -71,3 +71,29 @@ article h2 {
   margin-left: 7.5%;
   margin-bottom: 20px;
 }
+
+nav {
+  background: antiquewhite;
+  padding: 50px;
+  position: fixed;
+  left: 40px;
+  top: 10%;
+}
+
+nav li {
+  list-style-type: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: #111111;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+.navtitle {
+  text-decoration: underline;
+}
