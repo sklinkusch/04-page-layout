@@ -27,8 +27,11 @@ body {
   width: 21.0cm;
   height: 27.0cm;
   margin: 10px auto;
-  position: relative;
-  left: 15%;
+}
+
+.document {
+  position: absolute;
+  right: 1%;
 }
 
 .title {
