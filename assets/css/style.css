@@ -8,6 +8,20 @@ body {
   background-color: #a7a7a7;
 }
 
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/montserrat-v12-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Montserrat Regular'), local('Montserrat-Regular'),
+       url('../fonts/montserrat-v12-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/montserrat-v12-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/montserrat-v12-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/montserrat-v12-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/montserrat-v12-latin-regular.svg#Montserrat') format('svg'); /* Legacy iOS */
+}
+
+
 .paper {
   background-color: #ffffff;
   width: 21.0cm;
@@ -44,25 +58,6 @@ article h2 {
   margin: 20px auto;
 }
 
-.vertspaceI {
-  height: 360px;
-}
-
-.vertspaceII {
-  height: 200px;
-}
-
-.vertspaceIII {
-  height: 20px;
-}
-
-.vertspaceIV {
-  height: 520px;
-}
-
-.vertspaceV {
-  height: 640px;
-}
 .pagenumber {
   font-weight: bold;
   text-align: center;
@@ -79,14 +74,20 @@ article h2 {
 
 nav {
   background: antiquewhite;
-  padding: 50px;
+  padding: 20px;
   position: fixed;
-  left: 40px;
+  left: 2%;
   top: 10%;
+  font-family: 'Montserrat';
 }
 
 nav li {
   list-style-type: none;
+  margin-bottom: 15px;
+}
+
+nav li:last-of-type {
+  margin: 0;
 }
 
 nav a {
@@ -101,4 +102,5 @@ nav a:hover {
 
 .navtitle {
   text-decoration: underline;
+  margin-bottom: 10px;
 }
